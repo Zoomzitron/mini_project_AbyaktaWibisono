@@ -5,8 +5,6 @@ import AppHeader from './components/common/header';
 import AppHome from './pages/home';
 import AppAbout from './pages/about';
 import AppCar from './pages/car';
-import AppFAQ from './pages/faq';
-import AppContact from './pages/contact';
 import FooterCopyright from './components/common/footerCopyright';
 
 const { Header, Footer, Content } = Layout;
@@ -24,8 +22,6 @@ function App() {
               <Route path="/" element={<AppHome />} />
               <Route path="/About" element={<AppAbout />} />
               <Route path="/Car" element={<AppCar />} />
-              <Route path="/FAQ" element={<AppFAQ />} />
-              <Route path="/Contact" element={<AppContact />} />
             </Routes>
           </Content>
           <Footer>

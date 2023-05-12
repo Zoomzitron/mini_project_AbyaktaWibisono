@@ -16,12 +16,6 @@ function AppAbout() {
               berkeliling, wisata religi, kuliner, dan lain-lain.
             </p>
           </Tabs.TabPane>
-          <Tabs.TabPane tab="Investors" key={2}>
-            -
-          </Tabs.TabPane>
-          <Tabs.TabPane tab="Careers" key={3}>
-            -
-          </Tabs.TabPane>
         </Tabs>
       </div>
     </div>
